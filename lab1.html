@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 1</title>
+    <!-- boorstrap -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <!-- themify-icon.css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/themify-icons.css">
+    <!-- owl-carousel -->
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
+    <!-- light-box -->
+    <link rel="stylesheet" type="text/css" href="assets/css/lightbox.css">
+    <!-- video css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/video.min.css">
+    <!-- menu.css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/menu.css">
+    <!-- style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- responsive.css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="css2.css">
+</head>
+<body>
+<div id="preloader"></div>
+<nav id="poppin-nav">
+    <div id="nav-off"></div>
+    <div id="header-logo-1" class="text-center">
+        <a href="#"><img src="assets/img//logo/logo.png" alt="img"></a>
+    </div>
+    <ul id="menu">
+        <li class="has-submenu text-capitalize">
+            <a href="index.html">Home</a>
+        </li>
+        <li class="has-submenu">
+            <a href="#">Lab <span class="ti-angle-down"></span></a>
+            <ul class="submenu">
+                <li><a href="lab1.html">Exercise 1</a></li>
+                <li><a href="lab2.html">Exercise 2</a></li>
+            </ul>
+        </li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</nav>
+<div id="menu-overlay"></div>
+<header id="site-header" class="not-stuck">
+    <div class="container">
+        <div class="row">
+            <div id="header-logo">
+                <a href="#"><img src="assets/img//logo/logo.png" alt="img"></a>
+            </div>
+
+            <div id="menu-burger" class="pull-right not-stuck">
+                <div id="menu-bar">
+                    <span class="icon-bar top"></span>
+                    <span class="icon-bar middle"></span>
+                    <span class="icon-bar bottom"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section id="page-head" class="page-head-section">
+    <div class="page-head-overlay"></div>
+    <div id="page-head-effect" class="page-head-effect">
+        <canvas id="demo-canvas"></canvas>
+    </div>
+    <!-- // page-head-style -->
+    <div class="container">
+        <div class="row">
+            <div class="banner-content">
+                <div class="page-head-content">
+                    <div class="page-head-title text-capitalize pb40">
+                        <h1>This is Pandora</h1>
+                    </div>
+                    <div class="page-head-social">
+
+                    </div>
+                </div>
+            </div>
+            <!-- /.page-head-content -->
+        </div>
+    </div><!--  /.row-->
+    </div><!--  /.container -->
+</section>
+<div id="contain">
+    <div class="tab">
+        <button class="tablinks active">Requirement</button>
+        <button class="tablinks">Design</button>
+        <button class="tablinks">Implement</button>
+    </div>
+
+    <div id="Requirement" class="tabcontent">
+        <h3>Requirement</h3>
+        <head>
+        <style>
+        p {
+        border: 1px solid powderblue;
+        padding: 30px;
+        }
+        </style>
+        </head>
+        <body>
+
+         <p>
+            Chọn 1 đối tượng bất kì trong thế giới thực, ví dụ như sin viên , môn học , giảng viên ,... để thiết kế trên phần
+            mềm một số chức năng trên web để thêm , sửa , xía , tìm kiếm cho đối tượng đó.
+        </p>
+        </body>
+    </div>
+
+    <div id="Design" class="tabcontent">
+        <h3>Design</h3>
+        <p>Thiết kế trên giấy </p>
+
+            <img src="1.jpg"width="500" height="600"> <br>
+
+        <img src="1.jpg"width="500" height="600"> <br>
+        <hr>
+        <img src="2.jpg"width="500" height="600"> <br>
+        <hr>
+        <img src="3.jpg"width="500" height="600"> <br>
+        <hr>
+        <img src="4.jpg"width="500" height="600">
+        <hr>
+        <p>Thiết kế trên figma </p>
+        <div class="img">
+            <h3>Home page </h3>
+        <img src="home.jpg"width="500" height="600"> <br>
+        </div>
+        <hr>
+        <div class="img">
+            <h3>Chức năng thêm item </h3>
+        <img src="add.jpg" width="500" height="600">  <br>
+        </div>
+        <hr>
+        <img src="edit.jpg" width="500" height="600">  <br>
+        <hr>
+        <img src="remove.jpg"width="500" height="600">
+
+    </div>
+
+    <div id="Implement" class="tabcontent">
+        <h3>Implement</h3>
+        <p>
+
+        <h1><b>PANDORA</b> </h1>
+
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Enter product's name" aria-label="Search">
+
+            <button class="btn btn-outline-info my-2 my-sm-0" type="submit" style="margin-left: 5px"><span class="icon-add"></span>Add</button>
+            <div class="card">
+                <img src="ring.jpg"width="20" height="40">
+                <div class="card-body">
+                    <h5 class="card-title">Ring</h5>
+                   
+                    <p class="card-text">
+                    </p>
+
+                    <p class="card-text">
+                        $100
+                    </p>
+                    <a href="#" class="btn btn-outline-info"><span class="icon-edit"></span> Edit</a>
+                    <a href="#" class="btn btn-outline-info"><span class="icon-delete"></span> Delete</a>
+                </div>
+            </div>
+        </form>
+        </p>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-area footer-2">
+        <div class="container">
+            <div class="row">
+                <div class="copy-right-area text-center">
+                    <div class="page-head-social-item ul-li">
+                        <ul class="page-head-social-list">
+                            <li><a href="#"><span class="ti-facebook"></span></a></li>
+                            <li><a href="#"><span class="ti-twitter-alt"></span></a></li>
+                            <li><a href="#"><span class="ti-google"></span></a></li>
+                            <li><a href="#"><span class="ti-instagram"></span></a></li>
+                        </ul><!-- /.page-head-social-list -->
+                    </div>
+                    <span>Made with heart </span>
+                </div>
+                <!-- //copy-right-area -->
+            </div><!--  /.container -->
+        </div><!--  /.row-->
+    </div><!--  /.footer-area -->
+</footer>
+<!-- End of footer section
+    ============================================= -->
+
+
+
+<!--  Js Library -->
+<script src="assets/js/jquery-2.1.4.min.js"></script>
+<!-- Include  for bootstrap -->
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- Include isotope Js -->
+<script src="assets/js/jquery.isotope.min.js"></script>
+<!-- Include lightbox -->
+<script src="assets/js/lightbox.js"></script>
+<!-- Include circle-effect.js -->
+<script src="assets/js/circle-effect.js"></script>
+<!-- Include Video js -->
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<!-- Include Owl-carousel -->
+<script src="assets/js/owl.carousel.min.js"></script>
+<!-- Include Counter up -->
+<script src="assets/js/jquery.counterup.min.js"></script>
+<script src="assets/js/waypoints.min.js"></script>
+
+
+
+<!-- Include script.js -->
+<script src="assets/js/script.js"></script>
+<script type="text/javascript">
+    var buttons = document.getElementsByClassName('tablinks');
+    var contents = document.getElementsByClassName('tabcontent');
+    function showContent(id){
+        for (var i = 0; i < contents.length; i++) {
+            contents[i].style.display = 'none';
+        }
+        var content = document.getElementById(id);
+        content.style.display = 'block';
+    }
+    for (var i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener("click", function(){
+            var id = this.textContent;
+            for (var i = 0; i < buttons.length; i++) {
+                buttons[i].classList.remove("active");
+            }
+            this.className += " active";
+            showContent(id);
+        });
+    }
+    showContent('Requirement');
+</script>
+
+
+
+
+</body>
+</html>
