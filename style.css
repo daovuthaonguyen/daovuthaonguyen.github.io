@@ -232,7 +232,7 @@ Start of Page head section [*3]
 #page-head-effect canvas {
 	height: 420px !important;
 	width: 100%;
-	background: lightgray;
+	background: #ffd0e1;
 }
 .page-head-title h1 {
 	color: #090909;
