@@ -232,7 +232,7 @@ Start of Page head section [*3]
 #page-head-effect canvas {
 	height: 420px !important;
 	width: 100%;
-	background-image: url(bg1.jpg);
+	background-image: url('daovuthaonguyen.tk/bg1.jpg');
 }
 .page-head-title h1 {
 	color: #090909;
