@@ -200,7 +200,7 @@ Start of Page head section [*3]
 -------------------------------------------------------------------------*/
 .page-head-section {
 	background-image: url(banner-1.jpg);
-	padding-bottom: 420px;
+	padding-bottom: 960px;
 	background-position: 50% 0%;
 	position: relative;
 	background-repeat: no-repeat;
@@ -230,13 +230,15 @@ Start of Page head section [*3]
 }
 #page-head-effect,
 #page-head-effect canvas {
-	height: 420px !important;
+	height: 100% !important;
 	width: 100%;
 	background: url('../img/bg1.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
 }
 .page-head-title h1 {
 	color: #090909;
-	padding-bottom: 15px;
+	padding-bottom: 180px;
 }
 .social-title {
 	transform: rotate(-90deg);
@@ -249,7 +251,7 @@ Start of Page head section [*3]
 }
 .page-head-content {
 	position: absolute;
-	top: 30%;
+	top: 8%;
 	left: 0;
 	/* transform: translateX(-30%); */
 	right: 0;
