@@ -44,100 +44,143 @@
         </div>
     </div>
 </nav>
+<ul class="nav nav-tabs mb-4" role="tablist">
+    <li class="nav-item"><a class="nav-link" href="#exercise1" role="tab" data-toggle="tab" aria-selected="false">Exercise 1</a></li>
+    <li class="nav-item"><a class="nav-link active show" href="#exercise2" role="tab" data-toggle="tab" aria-selected="true">Exercise 2</a></li>
+</ul>
+<div class="tab-content ">
+    <div role="tabpanel" class="tab-pane" id="exercise1">
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item"><a class="nav-link" href="#requirement1" role="tab" data-toggle="tab" aria-selected="false">Requirement</a></li>
+            <li class="nav-item"><a class="nav-link" href="#design1" role="tab" data-toggle="tab" aria-selected="false">Design</a></li>
+            <li class="nav-item"><a class="nav-link active show" href="#implementation1" role="tab" data-toggle="tab" aria-selected="true">Implement</a></li>
+        </ul>
+        <br>
 
-<div id="contain">
-    <div class="tab">
-        <button class="tablinks active">Requirement</button>
-        <button class="tablinks">Design</button>
-        <button class="tablinks">Implement</button>
+        <div class="tab-content">
 
-    </div>
-    <div id ="Exercise 1" class="tabcontent">
-        <div id="Requirement" class="tabcontent" role="tabpanel">
-            <h3>Requirement</h3>
-            <table class="table table-bordered">
-                <thead>
-                <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Chọn 1 đối tượng bất kì trong thế giới thực, ví dụ như sin viên , môn học , giảng viên ,... để thiết kế trên phần
-                        mềm một số chức năng trên web để thêm , sửa , xía , tìm kiếm cho đối tượng đó.</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Upload tất cả lên Azure/github trong menu Lab1 theo thứ tự:
-                        <p>Tab Yêu cầu: copy lại nội dung của phần 1 vào đây (trình bày cho đẹp).</p>
-                        <p>Tab Thiết kế: để link tới các file sau đây:</p>
-                        <p>Thiết kế trên giấy (chụp lại ảnh).</p>
-                        <p>Thiết kế trên phần mềm thiết kế.</p>
-                        <p> Tab Hiện thực: chuyển tất cả thiết kế ở trên ở trên sang html.</p>
-                    </td>
+            <!-- Start requirement -->
+            <div role="tabpanel" class="tab-pane" id="requirement1">
+                <h3>Requirement</h3>
+                <table class="table table-bordered">
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Trong menu Labs, tạo 1 menu Lab3 (file lab3.html) sau đó tạo
+                            2 tab Ex1, Ex2</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Trong tab Ex1, thiết kế một trang Web đơn giản sử dụng mẫu F-pattern.</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Trong tab Ex1, có tab Design trong này chụp lại hình ảnh để có cái nhìn tổng quan về file thiết kế, có nút Download để download file thiết kế về nếu muốn</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Trong tab Ex1 đồng thời cũng có tab Implement, trong này có nội dung phần hiện thực trên html</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Upload tất cả lên Github</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- End Requirement -->
 
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    <div id="Design" class="tabcontent">
-        <h3>Design</h3>
-        <p>Thiết kế trên giấy </p>
+            <!-- Start Design -->
+            <div role="tabpanel" class="tab-pane" id="design1">
+                <h3>Design</h3>
+                <p>Thiết kế trên giấy </p>
 
-    </div>
-
-</div>
-
-<div id="Implement" class="tabcontent">
-    <h3>Implement</h3>
-    <div role="tabpanel" class="tab-pane active show" id="implementation">
-        <div class="container">
-
-
-        </div>
-    </div>
-</div>
-    <div id="Exercise 2" class="tabcontent">
-        <div id="Requirement" class="tabcontent" role="tabpanel">
-            <h3>Requirement</h3>
-            <table class="table table-bordered">
-                <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Tạo ra một user scenario</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Chọn 1 bước trong user scenario để thiết kế 1 form giao diện
-                        Web trên công cụ thiết kế đã chọn(Figma).</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td> Sau đó tạo ra file html tương ứng cho thiết kế này.</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Upload lên Azure / github: trong file html có chèn hình ảnh của
-                        user scenario, và đường dẫn của file thiết kế </td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-        <div id="Design" class="tabcontent">
-            <h3>Design</h3>
-            <p>Thiết kế trên giấy </p>
-
-        </div>
-
-    </div>
-
-    <div id="Implement" class="tabcontent">
-        <h3>Implement</h3>
-        <div role="tabpanel" class="tab-pane active show" id="implementation">
-            <div class="container">
+                <hr>
+                <p>Thiết kế trên figma </p>
 
 
             </div>
+
+            <!-- Start Implementation -->
+
+
+            <div role="tabpanel" class="tab-pane" id="implementation1">
+                <h3>Implement</h3>
+                <div class="container">
+
+
+
+
+                </div>
+
+            </div>
+
+
+    <div class="tab-content ">
+        <div role="tabpanel" class="tab-pane" id="Exercise2">
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item"><a class="nav-link" href="#requirement2" role="tab" data-toggle="tab" aria-selected="false">Requirement</a></li>
+                <li class="nav-item"><a class="nav-link" href="#design2" role="tab" data-toggle="tab" aria-selected="false">Design</a></li>
+                <li class="nav-item"><a class="nav-link active show" href="#implementation1" role="tab" data-toggle="tab" aria-selected="true">Implement</a></li>
+            </ul>
+            <br>
+
+            <div class="tab-content">
+
+                <!-- Start requirement -->
+                <div role="tabpanel" class="tab-pane" id="requirement2">
+                    <h3>Requirement</h3>
+                    <table class="table table-bordered">
+                        <thead>
+                        <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Trong menu Labs, tạo 1 menu Lab3 (file lab3.html) sau đó tạo 2 tab Ex1, Ex2</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                           <td>Trong tab Ex1: <br>
+                            <p>+ Thiết kế một trang Web đơn giản sử dụng mẫu F-pattern.</p><br>
+                            <p>+ Có tab Design trong này chụp lại hình ảnh để có cái nhìn tổng quan về file thiết kế, có nút Download để download file thiết kế về nếu muốn</p><br>
+                            <p>+ Có tab Implement, trong này có nội dung phần hiện thực trên html</p></td>
+
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Upload tất cả lên Github</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- End Requirement -->
+
+                <!-- Start Design -->
+                <div role="tabpanel" class="tab-pane" id="design2">
+                    <h3>Design</h3>
+                    <p>Thiết kế trên giấy </p>
+
+                    <hr>
+                    <p>Thiết kế trên figma </p>
+
+
+                </div>
+
+                <!-- Start Implementation -->
+                <div role="tabpanel" class="tab-pane" id="implementation2">
+                    <h3>Implement</h3>
+                    <div class="container">
+
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
         </div>
-    </div>
-</div>
+
+
 
 <footer>
     <div class="footer-area footer-2">
