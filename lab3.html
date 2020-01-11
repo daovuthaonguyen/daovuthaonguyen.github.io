@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Exercise 3</title>
+    <title>Exercise 1</title>
     <!-- boorstrap -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <!-- themify-icon.css -->
@@ -21,7 +21,6 @@
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 </head>
 <body>
-
 <!-- Navbar -->
 <nav class="navbar navbar-default">
     <div class="container">
@@ -37,85 +36,89 @@
                 <li><a href="lab3.html">Exercise 3</a></li>
                 <li><a href="lab4.html">Exercise 4</a></li>
                 <li><a href="lab5.html">Exercise 5</a></li>
+
                 <li><a href="about.html">About</a></li>
 
             </ul>
         </div>
     </div>
 </nav>
-<ul class="nav nav-tabs" role="tablist" id="nav-tabs2">
-    <li class="nav-item active">
-        <a class="nav-link active" data-toggle="tab" role="tab" href="#requirement">Requirement</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="exercise1.html">Exercise1</a></li>
-    <li class="nav-item"><a class="nav-link" href="exercise2.html">Exercise2</a>
-    </li>
-</ul>
 
-<div role="tabpanel" id="requirement" class="tab-pane">
+<div id="contain">
+    <div class="tab">
+        <button class="tablinks active">Requirement</button>
+        <button class="tablinks">Ex1</button>
+        <button class="tablinks">Ex2</button>
+    </div>
 
-</div>
-</div>
-</div>
+    <div id="Requirement" class="tabcontent" role="tabpanel">
+        <h3>Requirement</h3>
+        <table class="table table-bordered">
+            <thead>
+            <tbody>
+                                <tr>
+                                    <th>1</th>
+                                    <td> Trong menu Labs, tạo một menu Lab3 (file lab3.html) sau đó tạo ra 2 tab Ex1, Ex2
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>2</th>
+                                    <td>
+                                        Ex1: Thiết kế một trang web đơn giả sửa dụng mẫu F-pattern ==&gt; chuyển sang html (ex1.html).
+                                    </td></tr>
+                                <tr>
+                                    <th>3</th>
+                                    <td>
+                                        Ex2: Thiết kế một trang web sử dụng mẫu Z-pattern ==&gt; chuyển sang html (ex2/html).
+                                    </td></tr>
+                                <tr>
+                                    <th>4</th>
+                                    <td>
+                                        Với cả Ex1, Ex2: Tạo 2 tab Design và Implement
+                                        - Design: chụp lại hình ảnh dể có cái nhìn tổng quan về file thiết kế, có nút download để download các file thiết kế về nếu muốn.
+                                        - Implement: nội dung phần hiện thực trên html.
+                                    </td></tr>
+                                <tr>
+                                    <th>5</th>
+                                    <td>
+                                        Upload lên Azure/Github.
+                                    </td></tr>
+                                </tbody>
+                            </table>
+                        </div>
 
 
 
-            <div role="tabpanel" id="requirement1" class="tab-pane active show w-100">
-                <h3>Requirement</h3>
-                <table class="table table-bordered" id="table1" style="font-size: 14px">
 
-                    <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td> Trong menu Labs, tạo một menu Lab3 (file lab3.html) sau đó tạo ra 2 tab Ex1, Ex2
 
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>
-                            Ex1: Thiết kế một trang web đơn giả sửa dụng mẫu F-pattern ==&gt; chuyển sang html (ex1.html).
-                        </td></tr>
-                    <tr>
-                        <td>3</td>
-                        <td>
-                            Ex2: Thiết kế một trang web sử dụng mẫu Z-pattern ==&gt; chuyển sang html (ex2/html).
-                        </td></tr>
-                    <tr>
-                        <td>4</td>
-                        <td>
-                            Với cả Ex1, Ex2: Tạo 2 tab Design và Implement
-                            - Design: chụp lại hình ảnh dể có cái nhìn tổng quan về file thiết kế, có nút download để download các file thiết kế về nếu muốn.
-                            - Implement: nội dung phần hiện thực trên html.
-                        </td></tr>
-                    <tr>
-                        <td>5</td>
-                        <td>
-                            Upload lên Azure/Github.
-                        </td></tr>
-                    </tbody>
-                </table>
+    <div id="Ex1" class="tabcontent">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item"><a class="nav-link" href="#requirement1" role="tab" data-toggle="tab" aria-selected="false">Design</a></li>
+                    <li class="nav-item"><a class="nav-link active show" href="#design1" role="tab" data-toggle="tab" aria-selected="true">Implement</a></li>
+
+                </ul>
+        <div role="tabpanel" class="tab-pane" id="design1">
+                <h3>Design</h3>
+
+        <p>Thiết kế trên giấy </p>
+
+        <p>Thiết kế trên figma </p>
+        </div>
+
+    </div>
+
+    <div id="Ex2" class="tabcontent">
+        <h3>Implement</h3>
+        <div role="tabpanel" class="tab-pane active show" id="implementation">
+            <div class="container">
+                <!-- start  -->
+
             </div>
-
-
-
-        </div></div></div></section>
+    </div>
 </div>
-
-
-<!--/ service_area  -->
-
-<!-- testimonial_area  -->
-
-<!-- /testimonial_area  -->
-
-
-
-
-
-<!-- Footer -->
-    <footer>
+</body>
+<footer>
     <div class="footer-area footer-2">
         <div class="container">
             <div class="row">
@@ -136,52 +139,54 @@
     </div><!--  /.footer-area -->
 </footer>
 <!-- End of footer section
-
-
-< Js Library -->
-        <script src="assets/js/jquery-2.1.4.min.js"></script>
-        <!-- Include  for bootstrap -->
-        <script src="assets/js/bootstrap.min.js"></script>
-        <!-- Include isotope Js -->
-        <script src="assets/js/jquery.isotope.min.js"></script>
-        <!-- Include lightbox -->
-        <script src="assets/js/lightbox.js"></script>
-        <!-- Include circle-effect.js -->
-        <script src="assets/js/circle-effect.js"></script>
-        <!-- Include Video js -->
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        <!-- Include Owl-carousel -->
-        <script src="assets/js/owl.carousel.min.js"></script>
-        <!-- Include Counter up -->
-        <script src="assets/js/jquery.counterup.min.js"></script>
-        <script src="assets/js/waypoints.min.js"></script>
+    ============================================= -->
 
 
 
-        <!-- Include script.js -->
-        <script src="assets/js/script.js"></script>
-        <script type="text/javascript">
-            var buttons = document.getElementsByClassName('tablinks');
-            var contents = document.getElementsByClassName('tabcontent');
-            function showContent(id){
-                for (var i = 0; i < contents.length; i++) {
-                    contents[i].style.display = 'none';
-                }
-                var content = document.getElementById(id);
-                content.style.display = 'block';
-            }
+<!--  Js Library -->
+<script src="assets/js/jquery-2.1.4.min.js"></script>
+<!-- Include  for bootstrap -->
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- Include isotope Js -->
+<script src="assets/js/jquery.isotope.min.js"></script>
+<!-- Include lightbox -->
+<script src="assets/js/lightbox.js"></script>
+<!-- Include circle-effect.js -->
+<script src="assets/js/circle-effect.js"></script>
+<!-- Include Video js -->
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<!-- Include Owl-carousel -->
+<script src="assets/js/owl.carousel.min.js"></script>
+<!-- Include Counter up -->
+<script src="assets/js/jquery.counterup.min.js"></script>
+<script src="assets/js/waypoints.min.js"></script>
+
+
+
+<!-- Include script.js -->
+<script src="assets/js/script.js"></script>
+<script type="text/javascript">
+    var buttons = document.getElementsByClassName('tablinks');
+    var contents = document.getElementsByClassName('tabcontent');
+    function showContent(id){
+        for (var i = 0; i < contents.length; i++) {
+            contents[i].style.display = 'none';
+        }
+        var content = document.getElementById(id);
+        content.style.display = 'block';
+    }
+    for (var i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener("click", function(){
+            var id = this.textContent;
             for (var i = 0; i < buttons.length; i++) {
-                buttons[i].addEventListener("click", function(){
-                    var id = this.textContent;
-                    for (var i = 0; i < buttons.length; i++) {
-                        buttons[i].classList.remove("active");
-                    }
-                    this.className += " active";
-                    showContent(id);
-                });
+                buttons[i].classList.remove("active");
             }
-            showContent('Requirement');
-        </script>
+            this.className += " active";
+            showContent(id);
+        });
+    }
+    showContent('Requirement');
+</script>
 
 
 
